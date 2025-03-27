@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 70px;
+    background-color: #0e5a1fe5;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 130px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    width: 100%;
+    height: 60px;
+}
+
+.border{
+    border-color: 2px solid transparent;
+}
+
+.border:hover{
+    border: 0.5px solid white;
+}
+
+/**box2**/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    font-size: 1rem;
+     margin-left: 3px;
+    font-weight: 700;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+} 
+
+/**box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#0e5a1fe5;
+    width: 620px;
+    height: 49px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orangered;
+    
+}
+
+.Search-select{
+    background-color: #c7caca;
+   border: none;
+    width: 55px;
+    height:48px;
+    text-align: center;
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.Search-input{
+    width: 510px;
+    padding: 7px 9px 10px 5px;
+    font-size: 1.25rem;
+    border: none;
+    height: 31px;
+    
+   
+}
+
+.search-icon{
+  width: 50px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+   background-color: rgb(204, 28, 125);
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+
+/** box4**/
+.nav-first{
+    font-size: 0.80rem;
+}
+
+span{
+    font-size: 1 rem;
+    font-weight: 700;
+}
+/**box5**/
+.nav-first{
+    font-size: 0.80rem ;
+}
+span{
+    font-size: 1rem;
+}
+
+/**box6**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+   font-size: 0.85rem;
+}
+/**Panel**/
+.panel{
+    height:40px;
+    background-color: #0c582c;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.panel-ops p{
+   display: inline;
+   margin-left: 15px;
+
+}
+.panel-ops{
+    font-size: 0.85rem;
+    width: 70%;
+}
+
+.shop-deals{
+    font-weight: 800px;
+    font-size: 1rem;
+}
+
+/**hero section**/
+.hero-section{
+    background-image: url(hero-section.jpg);
+    height:340px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+.hero-mssg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+    
+}
+.hero-mssg a{
+    color: #007185;
+}
+/** Shopping**/
+.box{
+   
+    height: 400px;
+    width: 22%;
+   background-color: white;
+   padding: 20px 0px 15px;
+   margin: 15px;
+   
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(9, 139, 63, 0.466);
+}
+
+.box-img{
+    height:300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+
+/**Footer**/
+.footer{
+    margin-top: 15px;
+}
+.foot-panel{
+    background-color: #37475a;
+    justify-content: center;
+    height: 50px;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d ;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 25px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+
+.foot-panel3{
+    background-color:#222f3d ;
+    border-top: 0.5px solid white ;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+   
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
